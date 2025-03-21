@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@langchain/core": "^0.3.42",
+    "@langchain/openai": "^0.4.5",
+    "@types/node": "^18.19.80",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "langchain": "^0.3.19",
+    "morgan": "^1.10.0",
+    "openai": "^4.89.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "winston": "^3.17.0"
+  },
+  "name": "project1",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "scripts": {
+    "start": "nodemon app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/morgan": "^1.9.9",
+    "nodemon": "^3.1.9"
+  }
+}
